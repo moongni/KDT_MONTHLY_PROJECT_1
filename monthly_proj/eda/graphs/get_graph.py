@@ -58,10 +58,19 @@ def get_scatter(data:pd.DataFrame, x:str, y:str, **kwargs) -> Figure:
     fig = px.scatter(data_frame=data, y=y, x=x, **kwargs)
     return fig
 
-
+def return_figures1():
+    fig1 = get_pie_foundry_dittr()
+    fig2 = get_bar_foundry_dittr()
+    fig3 = get_corr()
+    fig4 = get_scatter(cat_data, x="Die Size (mm^2)", y="TDP (W)", trendline="ols")
+    fig5 = get_scatter(cat_data, x="Die Size (mm^2)", y="Transistors (million)", trendline="ols")
+    fig6 = get_scatter(cat_data, x="Release Date", y="Freq (MHz)", color="Type")
+    return fig1, fig2, fig3, fig4, fig5, fig6
 if __name__ == "__main__":
     # test code
     ## test get_pie_foundry_dittr
+    # return_figures1()
+
     fig1 = get_pie_foundry_dittr()
     print(type(fig1))
     fig1.show()
