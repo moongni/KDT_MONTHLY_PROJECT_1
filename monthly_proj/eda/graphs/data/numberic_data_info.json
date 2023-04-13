@@ -1,0 +1,25 @@
+{
+	"Type": {
+		"CPU": 0,
+		"GPU": 1
+	},
+	"Foundry": {
+		"GF": 0,
+		"IBM": 1,
+		"Intel": 2,
+		"NEC": 3,
+		"Renesas": 4,
+		"Samsung": 5,
+		"Sony": 6,
+		"TSMC": 7,
+		"UMC": 8,
+		"Unknown": 9
+	},
+	"Vendor": {
+		"AMD": 0,
+		"ATI": 1,
+		"Intel": 2,
+		"NVIDIA": 3,
+		"Other": 4
+	}
+}
