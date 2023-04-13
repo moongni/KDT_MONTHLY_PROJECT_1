@@ -1,0 +1,2 @@
+CHART_STUDIO_USERNAME = 'moongni'
+CHART_STUDIO_API = '79ih8AuaEHsm7QvwbumV'
