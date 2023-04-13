@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "bootstrap4",
     "eda",
 ]
 
@@ -57,7 +58,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
-            os.path.join(BASE_DIR, 'eda', 'template'),            
+            os.path.join(BASE_DIR, 'eda'),            
         ],
         "APP_DIRS": True,
         "OPTIONS": {
@@ -121,7 +122,7 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATICFILES_DIR = [
-    os.path.join(BASE_DIR, 'eda', 'static')
+    os.path.join(BASE_DIR, 'eda/static')
 ]
 
 # Default primary key field type
