@@ -20,6 +20,7 @@ from django.urls import path
 from eda.views import index_view, page1_view, page2_view, page3_view
 
 urlpatterns = [
+    path("", index_view),
     path("index/", index_view),
     path("page1/", page1_view),
     path("page2/", page2_view),
