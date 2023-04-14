@@ -23,7 +23,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", index_view),
     path("index/", index_view),
-    path("page1/", page1_view),
-    path("page2/", page2_view),
-    path("page3/", page3_view),
+    path("type/", page1_view),
+    path("vendor/", page2_view),
+    path("foundry/", page3_view),
 ]
