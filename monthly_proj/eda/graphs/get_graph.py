@@ -3,16 +3,15 @@ import os
 
 import numpy as np
 import pandas as pd
-import chart_studio
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.graph_objs._figure import Figure
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from setting import CHART_STUDIO_USERNAME, CHART_STUDIO_API
-
-chart_studio.tools.set_credentials_file(username=CHART_STUDIO_USERNAME, api_key=CHART_STUDIO_API)
+# import chart_studio
+# from setting import CHART_STUDIO_USERNAME, CHART_STUDIO_API
+# chart_studio.tools.set_credentials_file(username=CHART_STUDIO_USERNAME, api_key=CHART_STUDIO_API)
 
 path = os.path.dirname(os.path.realpath(__file__))
 cat_data = pd.read_csv(os.path.join(path, 'data', 'categorical_data.csv'))
