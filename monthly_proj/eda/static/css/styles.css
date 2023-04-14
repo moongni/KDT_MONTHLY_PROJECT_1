@@ -10868,7 +10868,7 @@ p {
 }
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 .section-heading .section-heading-lower {
@@ -10878,7 +10878,7 @@ p {
 }
 
 .bg-faded {
-  background-color: #f6e1c5;
+  background-color: #00008B;
 }
 
 .btn-xl {
